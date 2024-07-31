@@ -1,0 +1,32 @@
+.Counter {
+    width: 300px;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Counter-num {
+    font: 40px "BNazanin";
+    color: #000;
+    text-align: center;
+}
+
+.Counter-btn {
+    width: 70px;
+    height: 30px;
+    border: transparent;
+    background-color: #d2d2ab;
+    font: 20px "BNazanin";
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+
+.Counter-btns-container {
+    display: flex;
+    flex-grow: 1 ;
+    justify-content: space-around;
+    align-items: center;
+}
